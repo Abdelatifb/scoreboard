@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    background-color: black;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(46, 46, 78);
+    height: 300px;
+    width: 500px;
+    padding:20px;
+text-align: center;
+border-radius: 7px;
+}
+
+#title {
+   font-weight: bold;
+   font-size: 40px;
+   color: rgb(210, 219, 219);
+   margin-bottom: 10px;
+   height: 36px;
+   width: 144px;
+}
+.score {
+    color: red;
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+button {
+    color: rgb(92, 92, 92);
+
+}
+#reset-btn{
+    position: relative;
+}
